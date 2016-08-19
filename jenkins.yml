@@ -36,6 +36,14 @@ branches:
       - ie
       - ie6
       - ie7
+  # for testing
+  selenium-3:
+    regions:
+      - usw
+    apps:
+      - bedrock-selenium-3
+    integration_tests:
+      - firefox
 
 regions:
   usw:
