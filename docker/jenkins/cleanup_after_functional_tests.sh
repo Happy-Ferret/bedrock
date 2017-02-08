@@ -1,5 +1,7 @@
 #!/bin/bash
 
+BUILD_NUMBER="${BUILD_NUMBER:-0}"
+
 if [ "${DRIVER}" = "Remote" ]; then
     docker stop bedrock-code-${BUILD_NUMBER}
     docker rm bedrock-code-${BUILD_NUMBER}
